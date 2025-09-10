@@ -10,7 +10,8 @@ import { illiadOptions } from './illiad-options.constant';
   selector: 'ill-loans-overview',
   standalone: true,
   imports: [CommonModule, IllArticleComponent, IllRequestComponent, NgIf, NgFor],
-  templateUrl: './ill-loans-overview.component.html'
+  templateUrl: './ill-loans-overview.component.html',
+  styleUrl: './ill-loans-overview.component.scss'
 })
 export class IllLoansOverviewComponent implements OnInit {
   
@@ -52,3 +53,4 @@ export class IllLoansOverviewComponent implements OnInit {
     return Array.isArray(arr) && arr.length > 0;
   }
 }
+
