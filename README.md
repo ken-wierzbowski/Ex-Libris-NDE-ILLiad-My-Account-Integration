@@ -6,7 +6,7 @@ Creates a pane in Primo NDE "My Library Account" Overview section. This can also
 
 ## Screenshot
 (readme-images/my_account_illiad.png)
-
+(readme-images/my_account_illiad2.png)
 ## Install
 
 1. Setup and configure your local developer environment and follow the instructions on [Ex Libris' customModule Github project page](https://github.com/ExLibrisGroup/customModule).
@@ -16,9 +16,10 @@ Creates a pane in Primo NDE "My Library Account" Overview section. This can also
 3. Update the src/app/ill/illiad-options.constant.ts file with your local data. 
 
 4. Copy the files in the project services folder to src/services
-
+(readme-images/module_location.png)
 5. Map selectors to the custom1-module/customComponentMappings.ts file: 
 ```
 ['nde-requests-page-before', IllLoansOverviewComponent ],
 ['nde-account-overview-after', IllLoansOverviewComponent],
 ```
+(readme-images/module_mapping.png)
