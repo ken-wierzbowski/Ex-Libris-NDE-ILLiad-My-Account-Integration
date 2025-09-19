@@ -5,7 +5,7 @@ Based on the functionality of the [primo-explore-my-ill](https://github.com/alli
 Creates a pane in Primo NDE "My Library Account" Overview section. This can also be added to the Library Requests section or any other desired location prefixed with the <nde...> tag. Queries ILLiad for user's current requests and received articles, and displays them in the pane, including direct links to articles.
 
 ## Screenshot
-![/readme-images/my_account_illiad.png]
+(Ex-Libris-NDE-ILLiad-My-Account-Integration/readme-images/my_account_illiad.png)
 
 ## Install
 
